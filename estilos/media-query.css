@@ -34,8 +34,13 @@
         justify-content: space-between;
         color: white;
     }
-    header h1 {
+    header h1.h1-1 {
+        display: none;
+    }
+    header h1.h1-2 {
+        display: block;
         text-align: center;
+        font-size: 2.5em;
     }
     nav  {
         margin-left: -80px;

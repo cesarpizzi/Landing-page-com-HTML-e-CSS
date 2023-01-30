@@ -25,10 +25,10 @@ header {
 }
 
 header h1.h1-1 {
-    display: none;
+    display: block;
 }
 header h1.h1-2 {
-    font-size: 2.5em;
+    display: none;
 }
 main {
     max-width: 1200px;
