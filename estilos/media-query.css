@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 880px) and (max-width: 1200px) {
+
+    li {
+        padding-left: 0;
+    }
+    a {
+        padding: 10px 10px;
+        
+    }
+    div.texto-input {
+        background-color: hsla(300, 3%, 13%, 0.90)
+    }
+    div.imagem {
+        display: none;
+    }
+    section.c-principal {
+        background: url('../imagens/mulher-meditando.png') no-repeat;
+        background-size: contain;
+        background-position: center center;
+        text-align: center;
+    }
+    section.c-principal p {
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    header {
+        display: block;
+        justify-content: space-between;
+        color: white;
+    }
+    header h1 {
+        text-align: center;
+    }
+    nav  {
+        margin-left: -80px;
+        margin-right: -80px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        background-color: #7813C1;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    li {
+        text-decoration: underline;
+        padding-left: 0;
+    }
+    li:hover {
+        text-decoration: none;
+    }
+    a {
+        padding: 10px 10px;
+        
+    }
+    a:hover {
+        outline: none;
+    }
+    div.texto-input {
+        background-color: hsla(300, 3%, 13%, 0.90)
+    }
+    div.imagem {
+        display: none;
+    }
+    section.c-principal {
+        background: url('../imagens/mulher-meditando.png') no-repeat;
+        background-size: contain;
+        background-position: center center;
+        text-align: center;
+    }
+    section.c-principal p {
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+}
