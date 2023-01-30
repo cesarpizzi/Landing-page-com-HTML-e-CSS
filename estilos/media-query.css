@@ -52,7 +52,9 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
+    li.u-li {
+        padding-right: 0px;
+    }
     li {
         text-decoration: underline;
         padding-left: 0;
