@@ -43,8 +43,8 @@
         font-size: 2.5em;
     }
     nav  {
-        margin-left: -80px;
-        margin-right: -80px;
+        margin-eft: -80px;
+        margin-rght: -80px;
         display: flex;
         justify-content: center;
         margin-top: 30px;
@@ -57,13 +57,13 @@
     }
     li {
         text-decoration: underline;
-        padding-left: 0;
+        padding: 0px 5px;
     }
     li:hover {
         text-decoration: none;
     }
     a {
-        padding: 10px 0px;
+        padding: 0px;
         
     }
     a:hover {
